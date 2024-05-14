@@ -1,3 +1,6 @@
+let quantity = 5;
+let pricePerDroid = 2500;
+
 function makeTransaction(quantity, pricePerDroid) {
     return `You ordered ${quantity} droids worth ${quantity * pricePerDroid} credits!`;
 }
